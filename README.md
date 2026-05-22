@@ -1,16 +1,73 @@
-# Movie Search App
+# 🎬 Movie Search App
 
-A responsive movie search application built using JavaScript and the OMDb API.
+A responsive Movie Search Application built using HTML, Tailwind CSS, and JavaScript.  
+This app allows users to search for movies and view detailed information using the OMDb API.
 
-## Features
-- Search movies
-- View posters and details
-- Responsive UI
-- Loading spinner
-- Movie detail modal
+---
 
-## Tech Stack
-- HTML
+## 🚀 Features
+
+- 🔍 Search movies by name
+- 🎥 Dynamic movie cards
+- ⭐ View movie details in a modal
+- ⚡ Real-time API fetching
+- 📱 Fully responsive design
+- ⌨️ Enter key search support
+- 🔄 Loading spinner while fetching data
+- 🖼️ Fallback image support for missing posters
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
 - Tailwind CSS
-- JavaScript
+- JavaScript (ES6)
 - OMDb API
+
+---
+
+## 🌐 Live Demo
+
+Add your deployed project link here:
+
+```txt
+https://your-live-demo-link.com
+```
+
+---
+
+## 📂 Project Structure
+
+```txt
+movie-search-app/
+│
+├── index.html
+├── script.js
+├── .gitignore
+└── README.md
+```
+
+## 🔑 API Used
+
+OMDb API:
+
+```txt
+https://www.omdbapi.com/
+```
+
+---
+
+## 📚 What I Learned
+
+This project helped me practice:
+
+- Fetch API
+- Async/Await
+- DOM Manipulation
+- Responsive Design
+- Tailwind CSS
+- Dynamic Rendering
+- Modal Implementation
+
+---
