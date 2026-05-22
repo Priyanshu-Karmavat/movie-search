@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+  <!-- Navbar or header -->
+  <div>
+    <div class="w-full bg-white shadow-md px-4 sm:px-8 py-4">
+
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+
+        <h1 class="text-2xl font-extrabold text-red-500">
+          Movie Search
+        </h1>
+
+        <div class="flex w-full sm:w-auto gap-2">
+
+          <input id="searchInput" type="text" placeholder="Search Movie..."
+            class="flex-1 sm:w-80 px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-400" />
+
+          <button id="searchBtn"
+            class="bg-red-500 text-white px-5 py-2 rounded-md font-semibold hover:bg-red-600 transition">
+            Search
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!-- Hero or Home Page -->
+  <div class="bg-black text-center py-3">
+    <p class="text-sm text-gray-400">
+      Try: Batman, Avengers, Naruto, Spiderman...
+    </p>
+  </div>
+  <div id="movieContainer" class="bg-black min-h-screen p-10 grid grid-cols-2 md:grid-cols-4 gap-6">
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
