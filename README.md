@@ -29,13 +29,9 @@ This app allows users to search for movies and view detailed information using t
 
 ## 🌐 Live Demo
 
-Add your deployed project link here:
-
 ```txt
-https://your-live-demo-link.com
+https://yourusername.github.io/movie-search-app/
 ```
-
----
 
 ## 📂 Project Structure
 
