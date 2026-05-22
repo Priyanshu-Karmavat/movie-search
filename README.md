@@ -29,9 +29,7 @@ This app allows users to search for movies and view detailed information using t
 
 ## 🌐 Live Demo
 
-```txt
 https://yourusername.github.io/movie-search-app/
-```
 
 ## 📂 Project Structure
 
